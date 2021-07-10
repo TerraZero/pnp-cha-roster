@@ -6,9 +6,11 @@
     - [2.1.2. - Unzuverlässig](#212---unzuverlässig)
     - [2.1.3. - Modifizierbar](#213---modifizierbar)
   - [2.2. - Sprenglanze](#22---sprenglanze)
-    - [2.2.1. - Definition](#221---definition)
-    - [2.2.2. - Eigenschaften](#222---eigenschaften)
-    - [2.2.3. - Erweiterungen](#223---erweiterungen)
+    - [2.2.1. - Reichweite](#221---reichweite)
+    - [2.2.2. - Spezial](#222---spezial)
+    - [2.2.3. - Lange Nachladen](#223---lange-nachladen)
+    - [2.2.4. - Spezial Munition: Harpune](#224---spezial-munition-harpune)
+    - [2.2.5. - Spezial Munition: Explosionsharpune](#225---spezial-munition-explosionsharpune)
 - [3. - Fähigkeiten](#3---fähigkeiten)
   - [3.1. - Hunter Sicht](#31---hunter-sicht)
     - [3.1.1. - Vorschlag 1](#311---vorschlag-1)
@@ -33,11 +35,12 @@
     - [4.5.1. - Extra Attack](#451---extra-attack)
 - [5. - Hunter Items](#5---hunter-items)
   - [5.1. - Level 1 Items](#51---level-1-items)
-    - [5.1.1. - Impfung](#511---impfung)
-    - [5.1.2. - Trip Mine](#512---trip-mine)
-    - [5.1.3. - Heilspritze](#513---heilspritze)
-    - [5.1.4. - Rauchbombe](#514---rauchbombe)
-    - [5.1.5. - Black Shot](#515---black-shot)
+    - [5.1.1. - Munition](#511---munition)
+    - [5.1.2. - Impfung](#512---impfung)
+    - [5.1.3. - Trip Mine](#513---trip-mine)
+    - [5.1.4. - Heilspritze](#514---heilspritze)
+    - [5.1.5. - Rauchbombe](#515---rauchbombe)
+    - [5.1.6. - Black Shot](#516---black-shot)
 
 # 1. - Klasse: Hunter
 
@@ -62,6 +65,7 @@ Quelle: [https://www.dndbeyond.com/equipment/musket](https://www.dndbeyond.com/e
 | __Schaden__    |                       1d12                       |
 | __Reichweite__ |                     40 / 120                     |
 | __Ladung__     |                        5                         |
+| __Kapazität__  |                        15                        |
 | __Sonstiges__  | Lange Nachladezeit; Unzuverlässig; Modifizierbar |
 
 ### 2.1.1. - Lange Nachladezeit
@@ -99,38 +103,58 @@ Ein Wunderwerk der Technik hat so seine macken.
 
 ## 2.2. - Sprenglanze
 
+Quelle: [https://www.dndbeyond.com/equipment/lance](https://www.dndbeyond.com/equipment/lance)
+
 ![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/3/3d/Bomb_Lance.png/revision/latest/scale-to-width-down/400?cb=20190404183920)
 
----
+Eine Spezialwaffe gebaut für Hunter. Kann Harpunen Laden und verschießen. 
 
-### 2.2.1. - Definition
-
-[https://www.dndbeyond.com/equipment/lance](https://www.dndbeyond.com/equipment/lance)
-
-| Eigenschaft   | Wert                |
-| ------------- | ------------------- |
-| Kosten        | 10 GP               |
-| Schaden       | 1d12 Piercing       |
-| Gewischt      | 6 lbs               |
-| Eigenschaften | Reichweite, Spezial |
-
-__Reichweite:__ +5 Feet beim Angreifen
-
-__Spezial:__ Disadvantage wenn der Gegner inerhalb von 5 Feet sich befindet
+| Eigenschaft   |                          Wert                          |
+| ------------- | :----------------------------------------------------: |
+| Kosten        |                         10 GP                          |
+| Schaden       |                     1d12 Piercing                      |
+| Gewischt      |                         6 lbs                          |
+| Eigenschaften | Reichweite, Spezial, Lange Nachladen, Spezial Munition |
 
 ---
 
-### 2.2.2. - Eigenschaften
+### 2.2.1. - Reichweite
 
-- Wird als eine Lanze behandelt
-- Nachladen der Lanze dauert 2 Aktionen
+> +5 Feet beim Angreifen
+
+--- 
+
+### 2.2.2. - Spezial
+
+> __Nachteil__ wenn der Gegner innerhalb von 5 Feet sich befindet.
+
+--- 
+
+### 2.2.3. - Lange Nachladen
+
+> Das Nachladen der Lanze braucht 2 Aktionen.
 
 ---
 
-### 2.2.3. - Erweiterungen
+### 2.2.4. - Spezial Munition: Harpune
 
-- Harpune (Schaden: 1d8) (Kosten: 5 sp) (Range: 100 / 200)
-- Explosionsharpune (Schaden: 5d12) (Kosten: 100 gp) (Range: 30 / 120)
+Quelle: [https://www.dndbeyond.com/equipment/javelin](https://www.dndbeyond.com/equipment/javelin)
+
+| Eigenschaft |   Wert    |
+| ----------- | :-------: |
+| Kosten      |   5 sp    |
+| Schaden     |    1d8    |
+| Reichweite  | 100 / 200 |
+
+---
+
+### 2.2.5. - Spezial Munition: Explosionsharpune
+
+| Eigenschaft |   Wert   |
+| ----------- | :------: |
+| Kosten      |  100 gp  |
+| Schaden     |   5d12   |
+| Reichweite  | 30 / 120 |
 
 # 3. - Fähigkeiten
 
@@ -295,21 +319,27 @@ Beginning at 5th level, you can attack twice, instead of once, whenever you take
 
 ## 5.1. - Level 1 Items
 
-### 5.1.1. - Impfung
+### 5.1.1. - Munition
+
+> Besitzt 10 Standardkugeln für die Mosin.
+
+![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/3/36/Ammo_Box.png/revision/latest/scale-to-width-down/200?cb=20191002170720)
+
+---
+
+### 5.1.2. - Impfung
+
+Quelle: [https://www.dndbeyond.com/spells/absorb-elements](https://www.dndbeyond.com/spells/absorb-elements)
 
 > Wirkzeit: 30 min; 
 
 > Der erste Zauberangriff der mich trifft löst eine Resistenz aus gegen diese Art von Zauber für (S+2) Runden.
 
-
-
 ![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/5/50/Stamina_Shot.png/revision/latest/scale-to-width-down/200?cb=20191002170731)
-
-[https://www.dndbeyond.com/spells/absorb-elements](https://www.dndbeyond.com/spells/absorb-elements)
 
 ---
 
-### 5.1.2. - Trip Mine
+### 5.1.3. - Trip Mine
 
 > Eine Falle die einen kleinen Sprengkörper zündet sollte jemand durch den Draht gehen. 
 
@@ -321,7 +351,7 @@ Beginning at 5th level, you can attack twice, instead of once, whenever you take
 
 ---
 
-### 5.1.3. - Heilspritze
+### 5.1.4. - Heilspritze
 
 > Kann direkt angewendet werden; 
 
@@ -333,7 +363,7 @@ Beginning at 5th level, you can attack twice, instead of once, whenever you take
 
 ---
 
-### 5.1.4. - Rauchbombe
+### 5.1.5. - Rauchbombe
 
 > Erzeugt eine (S+20) feet große Rauchwolke für 1 Stunde
 
@@ -343,7 +373,7 @@ Beginning at 5th level, you can attack twice, instead of once, whenever you take
 
 ---
 
-### 5.1.5. - Black Shot
+### 5.1.6. - Black Shot
 
 > Wirkzeit: 1 h; 
 
