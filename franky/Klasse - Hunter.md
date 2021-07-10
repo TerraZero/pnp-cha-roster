@@ -2,8 +2,9 @@
   - [1.1. - Vorschlag 1](#11---vorschlag-1)
 - [2. - Waffen](#2---waffen)
   - [2.1. - Mosin-Nagant M1891](#21---mosin-nagant-m1891)
-    - [2.1.1. - Eigenschaften](#211---eigenschaften)
-    - [2.1.2. - Erweiterung](#212---erweiterung)
+    - [2.1.1. - Lange Nachladezeit](#211---lange-nachladezeit)
+    - [2.1.2. - Unzuverlässig](#212---unzuverlässig)
+    - [2.1.3. - Modifizierbar](#213---modifizierbar)
   - [2.2. - Sprenglanze](#22---sprenglanze)
     - [2.2.1. - Definition](#221---definition)
     - [2.2.2. - Eigenschaften](#222---eigenschaften)
@@ -50,24 +51,39 @@ Muss Energy sammeln um Fähigkeiten zu wirken. Energy wird durch misserfolge ges
 
 ## 2.1. - Mosin-Nagant M1891
 
+Quelle: [https://www.dndbeyond.com/equipment/musket](https://www.dndbeyond.com/equipment/musket)
+
 ![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/3/32/Mosin_Nagant_M1891_Bayonet.png/revision/latest/scale-to-width-down/400?cb=20180219155601)
 
 > Standardwaffe der Classe "Hunter". Kann verschiedene Munition laden.
 
-[https://www.dndbeyond.com/equipment/musket](https://www.dndbeyond.com/equipment/musket)
+| Eigenschaft    |                       Wert                       |
+| -------------- | :----------------------------------------------: |
+| __Schaden__    |                       1d12                       |
+| __Reichweite__ |                     40 / 120                     |
+| __Ladung__     |                        5                         |
+| __Sonstiges__  | Lange Nachladezeit; Unzuverlässig; Modifizierbar |
 
-__Damage__: 1d12
+### 2.1.1. - Lange Nachladezeit
 
-__Range__: 40 / 120
+> Das Nachladen braucht 2 Aktionen. Während dieser Aktionen ist es nur Möglich eine "Move" Aktion auszuführen.
 
-### 2.1.1. - Eigenschaften
+### 2.1.2. - Unzuverlässig
 
-- Kann 5 Kugeln laden.
-- Wenn keine Kugeln mehr geladen sind, braucht es 2 Aktionen um die Waffe neu zu laden (Währenddessen kann eine Move action benutzt werden)
-- Die Kugeln können entfernt werden und neue Eingeladen werden das dauert 2 Aktionen
-- _Unzuverlässligkeit:_ Ein Wunderwerk der Technik hat so seine macken. Wenn beim Einsatz dieser Waffe ein Kritischer Fehler gewürfelt wird (Natural 1), wird zu dem Misserfolg noch ein Sonderereigniss getriggert.
+Ein Wunderwerk der Technik hat so seine macken.
 
-### 2.1.2. - Erweiterung
+> Wenn beim Einsatz dieser Waffe ein Kritischer Fehler gewürfelt wird (Natural 1), wird zu dem Misserfolg noch ein Sonderereigniss getriggert.
+
+| 1d6 |                                 Ereignis                                  |
+| :-: | :-----------------------------------------------------------------------: |
+|  1  | Die Munition ist Nass geworden, alle Kugeln in der Waffe sind unbrauchbar |
+|  2  |      Die Kugel danach zündet in der Waffe und richtet 1d4 Schaden an      |
+|  3  |        Die Waffe klemmt und muss mit einer Aktion gesäubert werden        |
+|  4  |        Eine Modifizierung muss in einem Long Rest repariert werden        |
+|  5  |              Die nächste Kugel zu laden benötigt eine Aktion              |
+|  6  |                       Nichts passiert; Glück gehabt                       |
+
+### 2.1.3. - Modifizierbar
 
 - Visier - Erlaubt das bessere Zielen mit der Waffe, Aufrüsten dauert 1 Aktion; es muss geziehlt werden
 - Bayonet - Erlaubt den Nahkampf mit der Waffe
