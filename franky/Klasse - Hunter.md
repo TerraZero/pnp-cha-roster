@@ -55,10 +55,20 @@
     - [5.2.2. - Schrapnell](#522---schrapnell)
     - [5.2.3. - Bollwerk](#523---bollwerk)
     - [5.2.4. - Spezial Munition](#524---spezial-munition)
+- [6. - Ideen](#6---ideen)
+  - [6.1. - Riss / Rift](#61---riss--rift)
+  - [6.2. - Bandagen](#62---bandagen)
+  - [6.3. - Undead company](#63---undead-company)
 
 # 1. - Klasse: Hunter
 
 Die Klasse "Hunter" wird aus dem Spiel "Hunt: Showdown" abgeleitet und der Klasse Ranger
+
+![](https://xboxplay.games/uploadStream/5955.jpg)
+
+Ziel der Hunter ist es die größten Monster zu erlegen die die Welt je erschaffen konnte.
+
+![](https://www.huntshowdown.com/files/news/Blog_1920x10809487.jpg)
 
 ## 1.1. - Vorschlag 1
 
@@ -543,4 +553,10 @@ Enthällt eine Anzahl an Spezialmunition für die Mosin.
 
 ---
 
+# 6. - Ideen
 
+## 6.1. - Riss / Rift
+
+## 6.2. - Bandagen
+
+## 6.3. - Undead company
