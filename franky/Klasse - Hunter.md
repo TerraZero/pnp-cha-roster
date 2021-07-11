@@ -5,6 +5,11 @@
     - [2.1.1. - Lange Nachladezeit](#211---lange-nachladezeit)
     - [2.1.2. - Unzuverlässig](#212---unzuverlässig)
     - [2.1.3. - Modifizierbar](#213---modifizierbar)
+      - [2.1.3.1. - Aufrüstungen](#2131---aufrüstungen)
+      - [2.1.3.2. - Spezial Munition](#2132---spezial-munition)
+      - [2.1.3.3. - Leuchtkugel](#2133---leuchtkugel)
+      - [2.1.3.4. - Spitzerkugel](#2134---spitzerkugel)
+      - [2.1.3.5. - Teilmantelkugel](#2135---teilmantelkugel)
   - [2.2. - Sprenglanze](#22---sprenglanze)
     - [2.2.1. - Reichweite](#221---reichweite)
     - [2.2.2. - Spezial](#222---spezial)
@@ -14,10 +19,14 @@
 - [3. - Fähigkeiten](#3---fähigkeiten)
   - [3.1. - Hunter Sicht](#31---hunter-sicht)
     - [3.1.1. - Vorschlag 1](#311---vorschlag-1)
-  - [3.2. - Hunter Verbannung (Ultimate)](#32---hunter-verbannung-ultimate)
-    - [3.2.1. - Vorschlag 1](#321---vorschlag-1)
-    - [3.2.2. - Beschreibung](#322---beschreibung)
+      - [3.1.1.1. - Aufstieg](#3111---aufstieg)
+  - [3.2. - Huntscrafting](#32---huntscrafting)
   - [3.3. - Ruhiges Zielen](#33---ruhiges-zielen)
+  - [3.4. - Hunter Ritual](#34---hunter-ritual)
+  - [3.5. - Hunter Verbannung (Ultimate)](#35---hunter-verbannung-ultimate)
+    - [3.5.1. - Vorschlag 1](#351---vorschlag-1)
+      - [3.5.1.1. - Aufstieg](#3511---aufstieg)
+    - [3.5.2. - Beschreibung](#352---beschreibung)
 - [4. - Leveln](#4---leveln)
   - [4.1. - Level 1](#41---level-1)
     - [4.1.1. - Favored Enemy](#411---favored-enemy)
@@ -41,14 +50,21 @@
     - [5.1.4. - Heilspritze](#514---heilspritze)
     - [5.1.5. - Rauchbombe](#515---rauchbombe)
     - [5.1.6. - Black Shot](#516---black-shot)
+  - [5.2. - Level 2 Items](#52---level-2-items)
+    - [5.2.1. - Gegengift](#521---gegengift)
+    - [5.2.2. - Schrapnell](#522---schrapnell)
+    - [5.2.3. - Bollwerk](#523---bollwerk)
+    - [5.2.4. - Spezial Munition](#524---spezial-munition)
 
 # 1. - Klasse: Hunter
 
-Die Klasse "Hunter" wird aus dem Spiel "Hunt: Showdown" abgeleitet und ist eine Kombination der Klassen: Ranger und Blood Hunter.
+Die Klasse "Hunter" wird aus dem Spiel "Hunt: Showdown" abgeleitet und der Klasse Ranger
 
 ## 1.1. - Vorschlag 1
 
-Muss Energy sammeln um Fähigkeiten zu wirken. Energy wird durch misserfolge gesammelt.
+Muss Energy sammeln um Fähigkeiten zu wirken.
+
+> Bei einer 20 oder einer 1 bekommt der Hunter 1 Energy.
 
 # 2. - Waffen
 
@@ -56,7 +72,9 @@ Muss Energy sammeln um Fähigkeiten zu wirken. Energy wird durch misserfolge ges
 
 Quelle: [https://www.dndbeyond.com/equipment/musket](https://www.dndbeyond.com/equipment/musket)
 
-![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/3/32/Mosin_Nagant_M1891_Bayonet.png/revision/latest/scale-to-width-down/400?cb=20180219155601)
+![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/e/e5/Mosin_Nagant_M1891.png/revision/latest/scale-to-width-down/200?cb=20180219155305)
+![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/3/32/Mosin_Nagant_M1891_Bayonet.png/revision/latest/scale-to-width-down/200?cb=20180219155601)
+![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/c/cc/Mosin_Nagant_Sniper.png/revision/latest/scale-to-width-down/200?cb=20190107173244)
 
 > Standardwaffe der Classe "Hunter". Kann verschiedene Munition laden.
 
@@ -78,26 +96,68 @@ Ein Wunderwerk der Technik hat so seine macken.
 
 > Wenn beim Einsatz dieser Waffe ein Kritischer Fehler gewürfelt wird (Natural 1), wird zu dem Misserfolg noch ein Sonderereigniss getriggert.
 
-| 1d6 |                                 Ereignis                                  |
-| :-: | :-----------------------------------------------------------------------: |
+| 1d6 | Ereignis                                                                  |
+| :-: | :------------------------------------------------------------------------ |
 |  1  | Die Munition ist Nass geworden, alle Kugeln in der Waffe sind unbrauchbar |
-|  2  |      Die Kugel danach zündet in der Waffe und richtet 1d4 Schaden an      |
-|  3  |        Die Waffe klemmt und muss mit einer Aktion gesäubert werden        |
-|  4  |        Eine Modifizierung muss in einem Long Rest repariert werden        |
-|  5  |              Die nächste Kugel zu laden benötigt eine Aktion              |
-|  6  |                       Nichts passiert; Glück gehabt                       |
+|  2  | Die Kugel danach zündet in der Waffe und richtet 1d4 Schaden an           |
+|  3  | Die Waffe klemmt und muss mit einer Aktion gesäubert werden               |
+|  4  | Eine Modifizierung muss in einem Long Rest repariert werden               |
+|  5  | Die nächste Kugel zu laden benötigt eine Aktion                           |
+|  6  | Nichts passiert; Glück gehabt                                             |
 
 ### 2.1.3. - Modifizierbar
 
-- Visier - Erlaubt das bessere Zielen mit der Waffe, Aufrüsten dauert 1 Aktion; es muss geziehlt werden
-- Bayonet - Erlaubt den Nahkampf mit der Waffe
-- Silberkugel - Weniger Schaden auf normale Gegener aber mehr auf Gegner die empfindlich gegen Silber sind
-- Brandkugel - Setzt das Ziel in Brand bei doppelten Treffer
-- Leuchtkugel - Kann den Gegner blenden
-- Spitzerkugel - Kann durch Harte Wände Schießen
-- Schnelllader - Kann 5 Kugeln direkt als Nebenaktion nachladen
-- Vollmantelgeschoss - 
-- Teilmantelgeschoss - 
+#### 2.1.3.1. - Aufrüstungen
+
+__Visier:__ 
+
+> Gibt __Vorteil__ auf mehr als 60 Feet Entfernung, Gibt __Nachteil__ auf weniger als 15 Feet Entfernung
+
+> Braucht 1 min um Auf- oder Abzurüsten
+
+__Bayonet:__ 
+
+> Erlaubt den Nahkampf mit dieser Waffe. 
+
+> _(1d6 + Dex)_ Schaden
+
+__Schnelllader:__ 
+
+> Kann nur einmal pro Long Rest genutzt werden.
+
+> Erlaubt es in einer Aktion die Waffe komplett nachzuladen mit der Vorbereiteten Munition.
+
+#### 2.1.3.2. - Spezial Munition
+
+__Silberkugel:__ 
+
+> Macht weniger Schaden gegen normale Gegner. Macht doppelten Schaden gegen Gegner die Empfindlich für Silber sind.
+
+__Brandkugel:__ 
+
+> Macht _(-3)_ Schaden
+
+> Wird das Ziel zweimal getroffen fängt es an zu Brennen.
+
+#### 2.1.3.3. - Leuchtkugel
+
+> Macht nur noch _(1d4)_ Schaden. 
+
+> Ziel ist Geblendet und im __Nachteil__ (?)
+
+> Andere Kreaturen sind Aufmerksam
+
+#### 2.1.3.4. - Spitzerkugel
+
+> Macht _(-2)_ Schaden für jede Wand die Durschschlagen wird
+
+> Kugel kann durch mehrere Wände fliegen.
+
+#### 2.1.3.5. - Teilmantelkugel
+
+> Macht _(-3)_ Schaden
+
+> Verursacht beim Gegner Blutung 
 
 ---
 
@@ -105,7 +165,7 @@ Ein Wunderwerk der Technik hat so seine macken.
 
 Quelle: [https://www.dndbeyond.com/equipment/lance](https://www.dndbeyond.com/equipment/lance)
 
-![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/3/3d/Bomb_Lance.png/revision/latest/scale-to-width-down/400?cb=20190404183920)
+![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/3/3d/Bomb_Lance.png/revision/latest/scale-to-width-down/200?cb=20190404183920)
 
 Eine Spezialwaffe gebaut für Hunter. Kann Harpunen Laden und verschießen. 
 
@@ -168,13 +228,46 @@ Quelle: [https://www.dndbeyond.com/equipment/javelin](https://www.dndbeyond.com/
 
 ### 3.1.1. - Vorschlag 1
 
+- Kostet 1 Energy
 - Kann in (30 feet * Level) entfernung durch eine Wand sehen und Gegner Schleierhaft erkennen.
-- Level 4: Durch 2 Wände
-- Level 8: Durch 3 Wände
+
+#### 3.1.1.1. - Aufstieg
+
+- __Level 4__: Durch 2 Wände
+- __Level 8__: Durch 3 Wände
 
 ---
 
-## 3.2. - Hunter Verbannung (Ultimate)
+## 3.2. - Huntscrafting
+
+- Kostet 2 Aktionen
+- Verbraucht 2 Energy für jeden Slotlevel
+- Kann ein Item neu Slotten
+
+![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/0/06/Frontiersman.png/revision/latest/scale-to-width-down/200?cb=20190329214816)
+
+---
+
+## 3.3. - Ruhiges Zielen
+
+- Freischaltung: Level 5
+- Kann nur mit einem Visier benutzt werden.
+- Für alle 3 Felder entfernung Kostet es 1 Energy
+- Der Angriff zählt als Kritischer Treffer
+
+![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/4/44/Steady_Aim.png/revision/latest/scale-to-width-down/200?cb=20191002220811)
+![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/7/74/Iron_Sharpshooter.png/revision/latest/scale-to-width-down/200?cb=20191002220807)
+
+---
+
+## 3.4. - Hunter Ritual
+
+- Verbraucht 2 Energy und ein Totem gewonnen aus einer Verbannung
+- Erzeugt eine Fähigkeit die für den Kampf Sinnvoll ist von dem Monster das Verbannt wurde
+
+---
+
+## 3.5. - Hunter Verbannung (Ultimate)
 
 ![](https://pbs.twimg.com/media/D9wTXTQWwAMUhyR?format=jpg)
 
@@ -183,25 +276,25 @@ Quelle: [https://www.dndbeyond.com/equipment/javelin](https://www.dndbeyond.com/
 - Benötigt 1 Runde vorbereitung
 - Benötigt vielleicht eine Art von Totem für jeden Type von Gegner
 
-### 3.2.1. - Vorschlag 1
+### 3.5.1. - Vorschlag 1
 
+- Verbraucht _(X)_ Energy
 - Kann nur einmal nach einem Long Rest gecastet werden.
 - Braucht sichtkontakt, konzentration und zwei Aktionen um zu casten.
-- Das Ziel muss in Sprintreichweite sein.
-- Das Ziel kann sich nicht mehr Konzentrieren.
-- Das Ziel nimmt jede Runde 1d12 + Wisdom Schaden.
+- Das Ziel muss in Sprintreichweite sein. (60 feet)
+- Das Ziel nimmt jede Runde _(Xd6 + Wisdom)_ Schaden.
 - Das Ziel kann sich nur noch halb so schnell Bewegen.
-- Wenn das Ziel durch diesen Fluch schaden nimmt, kann er ein Wisdom saving throw ausführen bei Erfolg nimmt der Anwender 1d6 + Wisdom Schaden.
+- Wenn das Ziel durch diesen Fluch schaden nimmt, kann er ein Wisdom saving throw ausführen bei Erfolg nimmt der Anwender _(1d4 + Wisdom)_ Schaden. (Keine reduzierung des Schadens sondern ein Gegenangriff)
+- Der Anwender hat __Nachteil__ gegen alle Angriffe die auf ihn gehen, während der Verbannung
 
-### 3.2.2. - Beschreibung
+#### 3.5.1.1. - Aufstieg
+
+- __Level 5__: Schaden _(Xd8 + Wisdom)_
+- __Level 9__: Schaden _(Xd12 + Wisdom)_
+
+### 3.5.2. - Beschreibung
 
 Das Ziel fängt an von innen herraus Blau zu leuchten. Ein riesiger Geisterhafter Tornado entsteht über seinen Körper und ist viele Kilometer zu sehen. Der Körper des Ziels fängt an sich aufzulösen. Am Ende bleibt nur noch ein "Totem" von dem Ziel übrig.
-
----
-
-## 3.3. - Ruhiges Zielen
-
-Kann den Zielprozess Stacken. (Verstärkt sich am Level)
 
 # 4. - Leveln
 
@@ -262,10 +355,10 @@ __Slots:__
 
 | Level | 1 lv Slots | 2 lv Slots | 3 lv Slots |
 | ----- | :--------: | :--------: | :--------: |
-| 2     |     2      |     X      |     X      |
-| 3     |     3      |     X      |     X      |
-| 5     |     4      |     2      |     X      |
-| 7     |     4      |     3      |     X      |
+| 2     |     2      |     -      |     -      |
+| 3     |     3      |     -      |     -      |
+| 5     |     4      |     2      |     -      |
+| 7     |     4      |     3      |     -      |
 | 9     |     4      |     3      |     2      |
 
 ---
@@ -311,7 +404,7 @@ You can increase one ability score of your choice by 2.
 
 ### 4.5.1. - Extra Attack
 
-[https://www.dndbeyond.com/classes/ranger#ExtraAttack-301](https://www.dndbeyond.com/classes/ranger#ExtraAttack-301)
+Quelle: [https://www.dndbeyond.com/classes/ranger#ExtraAttack-301](https://www.dndbeyond.com/classes/ranger#ExtraAttack-301)
 
 Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
 
@@ -341,17 +434,19 @@ Quelle: [https://www.dndbeyond.com/spells/absorb-elements](https://www.dndbeyond
 
 ### 5.1.3. - Trip Mine
 
+Quelle: [https://www.dndbeyond.com/spells/alarm](https://www.dndbeyond.com/spells/alarm)
+
 > Eine Falle die einen kleinen Sprengkörper zündet sollte jemand durch den Draht gehen. 
 
 > Jedes gecraftete Item kann (S+1) benutzt werden.
 
 ![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/d/d0/Alert_Trip_Mines.png/revision/latest/scale-to-width-down/200?cb=20191002164745)
 
-[https://www.dndbeyond.com/spells/alarm](https://www.dndbeyond.com/spells/alarm)
-
 ---
 
 ### 5.1.4. - Heilspritze
+
+Quelle: [https://www.dndbeyond.com/spells/cure-wounds](https://www.dndbeyond.com/spells/cure-wounds)
 
 > Kann direkt angewendet werden; 
 
@@ -359,28 +454,93 @@ Quelle: [https://www.dndbeyond.com/spells/absorb-elements](https://www.dndbeyond
 
 ![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/c/c8/Vitality_Shot.png/revision/latest/scale-to-width-down/200?cb=20191002170726)
 
-[https://www.dndbeyond.com/spells/cure-wounds](https://www.dndbeyond.com/spells/cure-wounds)
-
 ---
 
 ### 5.1.5. - Rauchbombe
+
+Quelle: [https://www.dndbeyond.com/spells/fog-cloud](https://www.dndbeyond.com/spells/fog-cloud)
 
 > Erzeugt eine (S+20) feet große Rauchwolke für 1 Stunde
 
 ![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/2/20/Choke_Bomb.png/revision/latest/scale-to-width-down/200?cb=20191011193521)
 
-[https://www.dndbeyond.com/spells/fog-cloud](https://www.dndbeyond.com/spells/fog-cloud)
-
 ---
 
 ### 5.1.6. - Black Shot
 
-> Wirkzeit: 1 h; 
+Quelle: [https://www.dndbeyond.com/spells/hunters-mark](https://www.dndbeyond.com/spells/hunters-mark)
 
-> Eine Spezialmischung von Huntern; Der Anwender vergiftet sich und nimmt (1d4) Schaden; Das Blut des Anwenders ist nun Giftig (Sd6) Schaden; 
+Eine Spezialmischung von Huntern erfunden, um gegen Besonders mächtige Gegner zu Kämpfen.
+
+> Wirkzeit: 1 h
+
+> Der Anwender vergiftet sich und nimmt (1d4) Schaden; Das Blut des Anwenders ist nun Giftig (Sd6) Schaden; 
 
 > Wird der Anwender angegriffen kann ein Hunter diesen Gegner mit der Dark Vision bis zu 1 h verfolgen.
 
 ![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/3/31/Wormseed_Shot.png/revision/latest/scale-to-width-down/200?cb=20201029180313)
 
-[https://www.dndbeyond.com/spells/hunters-mark](https://www.dndbeyond.com/spells/hunters-mark)
+---
+
+## 5.2. - Level 2 Items
+
+### 5.2.1. - Gegengift
+
+Quelle: [https://www.dndbeyond.com/spells/protection-from-poison](https://www.dndbeyond.com/spells/protection-from-poison)
+
+> Wirkzeit: 1 h
+
+> Ein Mittel das ein aktives Gift neutralisiert oder das nächste beigefügte Gift innerhalb der Wirkzeit neutralisiert.
+
+![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/0/0d/Antidote_Shot.png/revision/latest/scale-to-width-down/200?cb=20191002170718)
+
+--- 
+
+### 5.2.2. - Schrapnell
+
+Quelle: [https://www.dndbeyond.com/spells/spike-growth](https://www.dndbeyond.com/spells/spike-growth)
+
+Eine Granate die in einem 20 Foot Radius kleine Sprengladungen verteilt. Eine Bewegung in diesem Bereich erzeugt 1d4 Schaden für alle 5 Feet. Ist ein Kreatur in dem Bereich während der Explosion nimmt sie 2d8 Schaden.
+
+> Wirkzeit: 10 min
+
+> Um den Bereich zu erkennen muss eine __Wisdom (Perception)__ check erfolgreich sein.
+
+![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/d/d5/Concertina_Bomb.png/revision/latest/scale-to-width-down/200?cb=20191002170711)
+
+---
+
+### 5.2.3. - Bollwerk
+
+Quelle: [https://www.dndbeyond.com/spells/barkskin](https://www.dndbeyond.com/spells/barkskin)
+
+Ein fürchterlich schmeckender Drink. Die meisten müssen sich direkt Übergeben von diesem Gebräu.
+
+> Wirkzeit: 1 h
+
+> Der Anwender erhält _(1d6)_ Schaden und muss einen Constitution Check machen gegen den __spell save DC__
+> ist dieser Erfolgreich hat der Anwender ein AC Wert von mindestens _17_
+> ist dieser Misserfolgt muss der Anwender sich übergeben und verliert eine Aktion dadurch, außerdem hat der Anwender einen AC Wert von mindestens _16_
+
+![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/9/93/Hive_Bomb.png/revision/latest/scale-to-width-down/200?cb=20191002170737)
+![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/8/82/Bulwark.png/revision/latest/scale-to-width-down/200?cb=20190329214757)
+
+---
+
+### 5.2.4. - Spezial Munition
+
+Enthällt eine Anzahl an Spezialmunition für die Mosin.
+
+| Level | Silberkugel | Brandkugel | Leuchtkugel | Spitzerkugel | Teilmantelgeschoss |
+| ----- | :---------: | :--------: | :---------: | :----------: | :----------------: |
+| 5     |      5      |     2      |      5      |      -       |         -          |     
+| 7     |      5      |     3      |     10      |      1       |         2          |     
+| 9     |      5      |     4      |     10      |      2       |         4          |     
+| 10    |      5      |     5      |     10      |      5       |         5          |     
+
+![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/c/cf/Ivory_Reliquary.png/revision/latest/scale-to-width-down/200?cb=20210324215813)
+![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/8/8d/Bulletgrubber.png/revision/latest/scale-to-width-down/200?cb=20190329214753)
+
+---
+
+
