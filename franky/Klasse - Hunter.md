@@ -7,9 +7,11 @@
     - [2.1.3. - Modifizierbar](#213---modifizierbar)
       - [2.1.3.1. - Aufrüstungen](#2131---aufrüstungen)
       - [2.1.3.2. - Spezial Munition](#2132---spezial-munition)
-      - [2.1.3.3. - Leuchtkugel](#2133---leuchtkugel)
-      - [2.1.3.4. - Spitzerkugel](#2134---spitzerkugel)
-      - [2.1.3.5. - Teilmantelkugel](#2135---teilmantelkugel)
+        - [2.1.3.2.1. - Silberkugel](#21321---silberkugel)
+        - [2.1.3.2.2. - Brandkugel](#21322---brandkugel)
+        - [2.1.3.2.3. - Leuchtkugel](#21323---leuchtkugel)
+        - [2.1.3.2.4. - Spitzerkugel](#21324---spitzerkugel)
+        - [2.1.3.2.5. - Teilmantelkugel](#21325---teilmantelkugel)
   - [2.2. - Sprenglanze](#22---sprenglanze)
     - [2.2.1. - Reichweite](#221---reichweite)
     - [2.2.2. - Spezial](#222---spezial)
@@ -56,9 +58,9 @@
     - [5.2.3. - Bollwerk](#523---bollwerk)
     - [5.2.4. - Spezial Munition](#524---spezial-munition)
 - [6. - Ideen](#6---ideen)
-  - [6.1. - Riss / Rift](#61---riss--rift)
-  - [6.2. - Bandagen](#62---bandagen)
-  - [6.3. - Undead company](#63---undead-company)
+  - [6.1. - Riss / Rift - (Fähigkeit)](#61---riss--rift---fähigkeit)
+  - [6.2. - Bandagen - (Item)](#62---bandagen---item)
+  - [6.3. - Undead company - (Fähigkeit)](#63---undead-company---fähigkeit)
 
 # 1. - Klasse: Hunter
 
@@ -88,13 +90,13 @@ Quelle: [https://www.dndbeyond.com/equipment/musket](https://www.dndbeyond.com/e
 
 > Standardwaffe der Classe "Hunter". Kann verschiedene Munition laden.
 
-| Eigenschaft    |                       Wert                       |
-| -------------- | :----------------------------------------------: |
-| __Schaden__    |                       1d12                       |
-| __Reichweite__ |                     40 / 120                     |
-| __Ladung__     |                        5                         |
-| __Kapazität__  |                        15                        |
-| __Sonstiges__  | Lange Nachladezeit; Unzuverlässig; Modifizierbar |
+| Eigenschaft    |                                                             Wert                                                              |
+| -------------- | :---------------------------------------------------------------------------------------------------------------------------: |
+| __Schaden__    |                                                             1d12                                                              |
+| __Reichweite__ |                                                           40 / 120                                                            |
+| __Ladung__     |                                                               5                                                               |
+| __Kapazität__  |                                                              15                                                               |
+| __Sonstiges__  | [Lange Nachladezeit](#211---lange-nachladezeit) \| [Unzuverlässig](#212---unzuverlässig) \| [Modifizierbar](#213---modifizierbar) |
 
 ### 2.1.1. - Lange Nachladezeit
 
@@ -137,19 +139,21 @@ __Schnelllader:__
 
 > Erlaubt es in einer Aktion die Waffe komplett nachzuladen mit der Vorbereiteten Munition.
 
+---
+
 #### 2.1.3.2. - Spezial Munition
 
-__Silberkugel:__ 
+##### 2.1.3.2.1. - Silberkugel
 
 > Macht weniger Schaden gegen normale Gegner. Macht doppelten Schaden gegen Gegner die Empfindlich für Silber sind.
 
-__Brandkugel:__ 
+##### 2.1.3.2.2. - Brandkugel
 
 > Macht _(-3)_ Schaden
 
 > Wird das Ziel zweimal getroffen fängt es an zu Brennen.
 
-#### 2.1.3.3. - Leuchtkugel
+##### 2.1.3.2.3. - Leuchtkugel
 
 > Macht nur noch _(1d4)_ Schaden. 
 
@@ -157,13 +161,13 @@ __Brandkugel:__
 
 > Andere Kreaturen sind Aufmerksam
 
-#### 2.1.3.4. - Spitzerkugel
+##### 2.1.3.2.4. - Spitzerkugel
 
 > Macht _(-2)_ Schaden für jede Wand die Durschschlagen wird
 
 > Kugel kann durch mehrere Wände fliegen.
 
-#### 2.1.3.5. - Teilmantelkugel
+##### 2.1.3.2.5. - Teilmantelkugel
 
 > Macht _(-3)_ Schaden
 
@@ -179,12 +183,14 @@ Quelle: [https://www.dndbeyond.com/equipment/lance](https://www.dndbeyond.com/eq
 
 Eine Spezialwaffe gebaut für Hunter. Kann Harpunen Laden und verschießen. 
 
-| Eigenschaft   |                          Wert                          |
-| ------------- | :----------------------------------------------------: |
-| Kosten        |                         10 GP                          |
-| Schaden       |                     1d12 Piercing                      |
-| Gewischt      |                         6 lbs                          |
-| Eigenschaften | Reichweite, Spezial, Lange Nachladen, Spezial Munition |
+> Das Wechseln zur oder von der Sprenglanze dauert immer eine Aktion.
+
+| Eigenschaft   |                                                                            Wert                                                                            |
+| ------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Kosten        |                                                                           10 GP                                                                            |
+| Schaden       |                                                                       1d12 Piercing                                                                        |
+| Gewischt      |                                                                           6 lbs                                                                            |
+| Eigenschaften | [Reichweite](#221---reichweite) \| [Spezial](#222---spezial) \| [Lange Nachladen](#223---lange-nachladen) \| [Spezial Munition](#224---spezial-munition-harpune) |
 
 ---
 
@@ -363,13 +369,13 @@ _S: Slotlevel_
 
 __Slots:__
 
-| Level | 1 lv Slots | 2 lv Slots | 3 lv Slots |
-| ----- | :--------: | :--------: | :--------: |
-| 2     |     2      |     -      |     -      |
-| 3     |     3      |     -      |     -      |
-| 5     |     4      |     2      |     -      |
-| 7     |     4      |     3      |     -      |
-| 9     |     4      |     3      |     2      |
+| Level | 1 lvl Slots | 2 lvl Slots | 3 lvl Slots |
+| ----- | :---------: | :---------: | :---------: |
+| 2     |      2      |      -      |      -      |
+| 3     |      3      |      -      |      -      |
+| 5     |      4      |      2      |      -      |
+| 7     |      4      |      3      |      -      |
+| 9     |      4      |      3      |      2      |
 
 ---
 
@@ -541,12 +547,12 @@ Ein fürchterlich schmeckender Drink. Die meisten müssen sich direkt Übergeben
 
 Enthällt eine Anzahl an Spezialmunition für die Mosin.
 
-| Level | Silberkugel | Brandkugel | Leuchtkugel | Spitzerkugel | Teilmantelgeschoss |
-| ----- | :---------: | :--------: | :---------: | :----------: | :----------------: |
-| 5     |      5      |     2      |      5      |      -       |         -          |     
-| 7     |      5      |     3      |     10      |      1       |         2          |     
-| 9     |      5      |     4      |     10      |      2       |         4          |     
-| 10    |      5      |     5      |     10      |      5       |         5          |     
+| Level | [Silberkugel](#21321---silberkugel) | [Brandkugel](#21322---brandkugel) | [Leuchtkugel](#21323---leuchtkugel) | [Spitzerkugel](#21324---spitzerkugel) | [Teilmantelgeschoss](#21325---teilmantelkugel) |
+| ----- | :---------------------------------: | :-------------------------------: | :---------------------------------: | :-----------------------------------: | :--------------------------------------------: |
+| 5     |                  5                  |                 2                 |                  5                  |                   -                   |                       -                        |
+| 7     |                  5                  |                 3                 |                 10                  |                   1                   |                       2                        |
+| 9     |                  5                  |                 4                 |                 10                  |                   2                   |                       4                        |
+| 10    |                  5                  |                 5                 |                 10                  |                   5                   |                       5                        |
 
 ![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/c/cf/Ivory_Reliquary.png/revision/latest/scale-to-width-down/200?cb=20210324215813)
 ![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/8/8d/Bulletgrubber.png/revision/latest/scale-to-width-down/200?cb=20190329214753)
@@ -555,8 +561,8 @@ Enthällt eine Anzahl an Spezialmunition für die Mosin.
 
 # 6. - Ideen
 
-## 6.1. - Riss / Rift
+## 6.1. - Riss / Rift - (Fähigkeit)
 
-## 6.2. - Bandagen
+## 6.2. - Bandagen - (Item)
 
-## 6.3. - Undead company
+## 6.3. - Undead company - (Fähigkeit)
