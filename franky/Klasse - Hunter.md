@@ -24,10 +24,9 @@
       - [3.1.1.1. - Aufstieg](#3111---aufstieg)
   - [3.2. - Huntscrafting](#32---huntscrafting)
   - [3.3. - Ruhiges Zielen](#33---ruhiges-zielen)
-  - [3.4. - Hunter Ritual](#34---hunter-ritual)
+  - [3.4. - Hunter Ritual (Vorschlag)](#34---hunter-ritual-vorschlag)
   - [3.5. - Hunter Verbannung (Ultimate)](#35---hunter-verbannung-ultimate)
     - [3.5.1. - Vorschlag 1](#351---vorschlag-1)
-      - [3.5.1.1. - Aufstieg](#3511---aufstieg)
     - [3.5.2. - Beschreibung](#352---beschreibung)
 - [4. - Leveln](#4---leveln)
   - [4.1. - Level 1](#41---level-1)
@@ -60,7 +59,6 @@
 - [6. - Ideen](#6---ideen)
   - [6.1. - Riss / Rift - (Fähigkeit)](#61---riss--rift---fähigkeit)
   - [6.2. - Bandagen - (Item)](#62---bandagen---item)
-  - [6.3. - Undead company - (Fähigkeit)](#63---undead-company---fähigkeit)
 
 # 1. - Klasse: Hunter
 
@@ -76,7 +74,13 @@ Ziel der Hunter ist es die größten Monster zu erlegen die die Welt je erschaff
 
 Muss Energy sammeln um Fähigkeiten zu wirken.
 
-> Bei einer 20 oder einer 1 bekommt der Hunter 1 Energy.
+> Erhalte 1 Energy wenn ein Favored Enemy besiegt wird (mit Beteiligung)
+
+> Vorrat an Energy 4 (Level 10: 7)
+
+> Kann maximal 4 Energy pro Long Rest erhalten
+
+> Halbiert die Energy während eines Long Rests
 
 # 2. - Waffen
 
@@ -90,23 +94,23 @@ Quelle: [https://www.dndbeyond.com/equipment/musket](https://www.dndbeyond.com/e
 
 > Standardwaffe der Classe "Hunter". Kann verschiedene Munition laden.
 
-| Eigenschaft    |                                                             Wert                                                              |
-| -------------- | :---------------------------------------------------------------------------------------------------------------------------: |
-| __Schaden__    |                                                             1d12                                                              |
-| __Reichweite__ |                                                           40 / 120                                                            |
-| __Ladung__     |                                                               5                                                               |
-| __Kapazität__  |                                                              15                                                               |
-| __Sonstiges__  | [Lange Nachladezeit](#211---lange-nachladezeit) \| [Unzuverlässig](#212---unzuverlässig) \| [Modifizierbar](#213---modifizierbar) |
+| Eigenschaft    |                       Wert                        |
+| -------------- | :-----------------------------------------------: |
+| __Schaden__    |                    1d12 + Dex                     |
+| __Reichweite__ |                     40 / 120                      |
+| __Ladung__     |                         5                         |
+| __Kapazität__  |                        15                         |
+| __Sonstiges__  | [Lange Nachladezeit](#211---lange-nachladezeit) \ | [Unzuverlässig](#212---unzuverlässig) \| [Modifizierbar](#213---modifizierbar) 
 
 ### 2.1.1. - Lange Nachladezeit
 
-> Das Nachladen braucht 2 Aktionen. Während dieser Aktionen ist es nur Möglich eine "Move" Aktion auszuführen.
+> Braucht eine Runde um Nachzuladen. Während dieser Aktionen ist es nur Möglich eine "Move" Aktion auszuführen.
 
 ### 2.1.2. - Unzuverlässig
 
 Ein Wunderwerk der Technik hat so seine macken.
 
-> Wenn beim Einsatz dieser Waffe ein Kritischer Fehler gewürfelt wird (Natural 1), wird zu dem Misserfolg noch ein Sonderereigniss getriggert.
+> Wenn beim Einsatz dieser Waffe ein Kritischer Fehler gewürfelt wird (Natural 1), wird zu dem Misserfolg noch ein Sonderereignis getriggert.
 
 | 1d6 | Ereignis                                                                  |
 | :-: | :------------------------------------------------------------------------ |
@@ -114,7 +118,7 @@ Ein Wunderwerk der Technik hat so seine macken.
 |  2  | Die Kugel danach zündet in der Waffe und richtet 1d4 Schaden an           |
 |  3  | Die Waffe klemmt und muss mit einer Aktion gesäubert werden               |
 |  4  | Eine Modifizierung muss in einem Long Rest repariert werden               |
-|  5  | Die nächste Kugel zu laden benötigt eine Aktion                           |
+|  5  | Die nächste Kugel zu laden benötigt eine Bonusaktion                      |
 |  6  | Nichts passiert; Glück gehabt                                             |
 
 ### 2.1.3. - Modifizierbar
@@ -145,33 +149,33 @@ __Schnelllader:__
 
 ##### 2.1.3.2.1. - Silberkugel
 
-> Macht weniger Schaden gegen normale Gegner. Macht doppelten Schaden gegen Gegner die Empfindlich für Silber sind.
+> Kugel aus Silber.
 
 ##### 2.1.3.2.2. - Brandkugel
 
 > Macht _(-3)_ Schaden
 
-> Wird das Ziel zweimal getroffen fängt es an zu Brennen.
+> Wird das Ziel zweimal getroffen fängt es an zu Brennen. (3 Runden _(1d6)_ Schaden am Anfang der Runde)
 
 ##### 2.1.3.2.3. - Leuchtkugel
 
-> Macht nur noch _(1d4)_ Schaden. 
+> Macht nur noch _(1d6)_ Schaden. 
 
-> Ziel ist Geblendet und im __Nachteil__ (?)
+> Ziel ist Geblendet und im __Nachteil__ (1 Runde)
 
-> Andere Kreaturen sind Aufmerksam
+> Andere Kreaturen sind Aufmerksam (laut, hell)
 
 ##### 2.1.3.2.4. - Spitzerkugel
 
-> Macht _(-2)_ Schaden für jede Wand die Durschschlagen wird
+> Macht _(-2)_ Schaden für jede Hindernis die Durschschlagen wird
 
-> Kugel kann durch mehrere Wände fliegen.
+> Kugel kann durch mehrere Hindernisse fliegen.
 
 ##### 2.1.3.2.5. - Teilmantelkugel
 
 > Macht _(-3)_ Schaden
 
-> Verursacht beim Gegner Blutung 
+> Verursacht beim Gegner Blutung (1d8 Schaden bis zu einem Constitution Saving Throw 16)
 
 ---
 
@@ -185,12 +189,12 @@ Eine Spezialwaffe gebaut für Hunter. Kann Harpunen Laden und verschießen.
 
 > Das Wechseln zur oder von der Sprenglanze dauert immer eine Aktion.
 
-| Eigenschaft   |                                                                            Wert                                                                            |
-| ------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Kosten        |                                                                           10 GP                                                                            |
-| Schaden       |                                                                       1d12 Piercing                                                                        |
-| Gewischt      |                                                                           6 lbs                                                                            |
-| Eigenschaften | [Reichweite](#221---reichweite) \| [Spezial](#222---spezial) \| [Lange Nachladen](#223---lange-nachladen) \| [Spezial Munition](#224---spezial-munition-harpune) |
+| Eigenschaft   |               Wert                |
+| ------------- | :-------------------------------: |
+| Kosten        |               10 GP               |
+| Schaden       |       1d12 Piercing + [Str]       |
+| Gewischt      |               6 lbs               |
+| Eigenschaften | [Reichweite](#221---reichweite) \ | [Spezial](#222---spezial) \| [Lange Nachladen](#223---lange-nachladen) \| [Spezial Munition](#224---spezial-munition-harpune) 
 
 ---
 
@@ -226,11 +230,11 @@ Quelle: [https://www.dndbeyond.com/equipment/javelin](https://www.dndbeyond.com/
 
 ### 2.2.5. - Spezial Munition: Explosionsharpune
 
-| Eigenschaft |   Wert   |
-| ----------- | :------: |
-| Kosten      |  100 gp  |
-| Schaden     |   5d12   |
-| Reichweite  | 30 / 120 |
+| Eigenschaft |    Wert    |
+| ----------- | :--------: |
+| Kosten      |   100 gp   |
+| Schaden     | 5d12 Feuer |
+| Reichweite  |  30 / 120  |
 
 # 3. - Fähigkeiten
 
@@ -256,7 +260,7 @@ Quelle: [https://www.dndbeyond.com/equipment/javelin](https://www.dndbeyond.com/
 
 ## 3.2. - Huntscrafting
 
-- Kostet 2 Aktionen
+- Kostet eine Runde
 - Verbraucht 2 Energy für jeden Slotlevel
 - Kann ein Item neu Slotten
 
@@ -268,15 +272,18 @@ Quelle: [https://www.dndbeyond.com/equipment/javelin](https://www.dndbeyond.com/
 
 - Freischaltung: Level 5
 - Kann nur mit einem Visier benutzt werden.
-- Für alle 3 Felder entfernung Kostet es 1 Energy
-- Der Angriff zählt als Kritischer Treffer
+- Kostet 1 Energy
+- Eine Runde Vorbereiten
+- Kann keinen kritischen Treffer landen
+- Schaden + 1d6
+- (Kann überarbeitet werden)
 
 ![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/4/44/Steady_Aim.png/revision/latest/scale-to-width-down/200?cb=20191002220811)
 ![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/7/74/Iron_Sharpshooter.png/revision/latest/scale-to-width-down/200?cb=20191002220807)
 
 ---
 
-## 3.4. - Hunter Ritual
+## 3.4. - Hunter Ritual (Vorschlag)
 
 - Verbraucht 2 Energy und ein Totem gewonnen aus einer Verbannung
 - Erzeugt eine Fähigkeit die für den Kampf Sinnvoll ist von dem Monster das Verbannt wurde
@@ -287,26 +294,15 @@ Quelle: [https://www.dndbeyond.com/equipment/javelin](https://www.dndbeyond.com/
 
 ![](https://pbs.twimg.com/media/D9wTXTQWwAMUhyR?format=jpg)
 
-- Ist eine Art Finisher Move.
-- Harte Bedingung um ausgeführt zu werden
-- Benötigt 1 Runde vorbereitung
-- Benötigt vielleicht eine Art von Totem für jeden Type von Gegner
-
 ### 3.5.1. - Vorschlag 1
 
-- Verbraucht _(X)_ Energy
-- Kann nur einmal nach einem Long Rest gecastet werden.
-- Braucht sichtkontakt, konzentration und zwei Aktionen um zu casten.
-- Das Ziel muss in Sprintreichweite sein. (60 feet)
-- Das Ziel nimmt jede Runde _(Xd6 + Wisdom)_ Schaden.
-- Das Ziel kann sich nur noch halb so schnell Bewegen.
-- Wenn das Ziel durch diesen Fluch schaden nimmt, kann er ein Wisdom saving throw ausführen bei Erfolg nimmt der Anwender _(1d4 + Wisdom)_ Schaden. (Keine reduzierung des Schadens sondern ein Gegenangriff)
-- Der Anwender hat __Nachteil__ gegen alle Angriffe die auf ihn gehen, während der Verbannung
+- Verbraucht _3/(4)_ Energy
+- Wisdom Saving Throw wenn der Anwender Schaden nimmt um Konzentration zu behalten
+- Alle Gegener haben __Vorteil__ gegen mich
+- Nach _4/(3)_ Runden ist das Ziel besiegt sollte es die Verbannung nicht aufhalten können
+- Das Ziel geht auf den Anwender los
 
-#### 3.5.1.1. - Aufstieg
-
-- __Level 5__: Schaden _(Xd8 + Wisdom)_
-- __Level 9__: Schaden _(Xd12 + Wisdom)_
+- (Überlegen Wege das aufzuhalten) Fallen, Bewegung
 
 ### 3.5.2. - Beschreibung
 
@@ -564,5 +560,3 @@ Enthällt eine Anzahl an Spezialmunition für die Mosin.
 ## 6.1. - Riss / Rift - (Fähigkeit)
 
 ## 6.2. - Bandagen - (Item)
-
-## 6.3. - Undead company - (Fähigkeit)
