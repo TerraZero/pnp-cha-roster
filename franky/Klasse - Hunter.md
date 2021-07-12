@@ -464,7 +464,7 @@ Quelle: [https://www.dndbeyond.com/spells/alarm](https://www.dndbeyond.com/spell
 
 Quelle: [https://www.dndbeyond.com/spells/cure-wounds](https://www.dndbeyond.com/spells/cure-wounds)
 
-> Kann direkt angewendet werden; 
+> Kann direkt angewendet werden
 
 > (Sd8 + M) Heilung;
 
