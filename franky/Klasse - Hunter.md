@@ -24,10 +24,12 @@
       - [3.1.1.1. - Aufstieg](#3111---aufstieg)
   - [3.2. - Huntscrafting](#32---huntscrafting)
   - [3.3. - Ruhiges Zielen](#33---ruhiges-zielen)
-  - [3.4. - Hunter Ritual (Vorschlag)](#34---hunter-ritual-vorschlag)
-  - [3.5. - Hunter Verbannung (Ultimate)](#35---hunter-verbannung-ultimate)
-    - [3.5.1. - Vorschlag 1](#351---vorschlag-1)
-    - [3.5.2. - Beschreibung](#352---beschreibung)
+  - [3.4. - Hunter Rift](#34---hunter-rift)
+    - [3.4.1. - Beschreibung](#341---beschreibung)
+  - [3.5. - Hunter Ritual](#35---hunter-ritual)
+  - [3.6. - Hunter Verbannung (Ultimate)](#36---hunter-verbannung-ultimate)
+    - [3.6.1. - Vorschlag 1](#361---vorschlag-1)
+    - [3.6.2. - Beschreibung](#362---beschreibung)
 - [4. - Leveln](#4---leveln)
   - [4.1. - Level 1](#41---level-1)
     - [4.1.1. - Favored Enemy](#411---favored-enemy)
@@ -51,14 +53,16 @@
     - [5.1.4. - Heilspritze](#514---heilspritze)
     - [5.1.5. - Rauchbombe](#515---rauchbombe)
     - [5.1.6. - Black Shot](#516---black-shot)
+    - [5.1.7. - Falle](#517---falle)
   - [5.2. - Level 2 Items](#52---level-2-items)
     - [5.2.1. - Gegengift](#521---gegengift)
     - [5.2.2. - Schrapnell](#522---schrapnell)
     - [5.2.3. - Bollwerk](#523---bollwerk)
     - [5.2.4. - Spezial Munition](#524---spezial-munition)
-- [6. - Ideen](#6---ideen)
-  - [6.1. - Riss / Rift - (Fähigkeit)](#61---riss--rift---fähigkeit)
-  - [6.2. - Bandagen - (Item)](#62---bandagen---item)
+- [6. Fragen](#6-fragen)
+  - [6.1. Falle ok?](#61-falle-ok)
+  - [6.2. Rift ok?](#62-rift-ok)
+  - [6.3. Ruhiges Zielen, ist ein sicherer Treffer?](#63-ruhiges-zielen-ist-ein-sicherer-treffer)
 
 # 1. - Klasse: Hunter
 
@@ -283,18 +287,33 @@ Quelle: [https://www.dndbeyond.com/equipment/javelin](https://www.dndbeyond.com/
 
 ---
 
-## 3.4. - Hunter Ritual (Vorschlag)
+## 3.4. - Hunter Rift
+
+- Wenn ein Monster getötet wird von einem Hunter und der Hunter dadurch eine Energy erhält
+- (Als mögliche bedingung muss ein Wisdom Check schaffen?)
+- Erstellt am Sterbe Ort einen Rift, dieser Rift erhält Leben 20% vom Monster das ihn erstellt hat (vielleicht meine eigene lebensenergy)
+- Solange ein Rift in der Nähe einer Verbannung ist, verringert dieser den Schaden den das verbannte Monster anrichtet. (1d6?)
+
+![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/7/76/Unclaimed_fresh_rift.png/revision/latest/scale-to-width-down/250?cb=20190713180052)
+
+### 3.4.1. - Beschreibung
+
+Der Rift ist ein Riss in der Welt. Der diese Welt mit der Verbannten Welt verbindet. Es zährt an den kräften von Gezeichneten Lebewesen.
+
+---
+
+## 3.5. - Hunter Ritual 
 
 - Verbraucht 2 Energy und ein Totem gewonnen aus einer Verbannung
 - Erzeugt eine Fähigkeit die für den Kampf Sinnvoll ist von dem Monster das Verbannt wurde
 
 ---
 
-## 3.5. - Hunter Verbannung (Ultimate)
+## 3.6. - Hunter Verbannung (Ultimate)
 
 ![](https://pbs.twimg.com/media/D9wTXTQWwAMUhyR?format=jpg)
 
-### 3.5.1. - Vorschlag 1
+### 3.6.1. - Vorschlag 1
 
 - Verbraucht _3/(4)_ Energy
 - Wisdom Saving Throw wenn der Anwender Schaden nimmt um Konzentration zu behalten
@@ -302,9 +321,7 @@ Quelle: [https://www.dndbeyond.com/equipment/javelin](https://www.dndbeyond.com/
 - Nach _4/(3)_ Runden ist das Ziel besiegt sollte es die Verbannung nicht aufhalten können
 - Das Ziel geht auf den Anwender los
 
-- (Überlegen Wege das aufzuhalten) Fallen, Bewegung
-
-### 3.5.2. - Beschreibung
+### 3.6.2. - Beschreibung
 
 Das Ziel fängt an von innen herraus Blau zu leuchten. Ein riesiger Geisterhafter Tornado entsteht über seinen Körper und ist viele Kilometer zu sehen. Der Körper des Ziels fängt an sich aufzulösen. Am Ende bleibt nur noch ein "Totem" von dem Ziel übrig.
 
@@ -494,6 +511,19 @@ Eine Spezialmischung von Huntern erfunden, um gegen Besonders mächtige Gegner z
 
 ---
 
+### 5.1.7. - Falle
+
+> Kann zwei in einen Slot setzen.
+
+> Das stellen der Falle kostet 1 Aktion.
+
+> Ein Lebewesen das in die Falle tritt nimmt 1d4 Schaden und kann sich nur noch halb so schnell bewegen.
+> Das Lebewesen kann einen Stärke Check machen um sich von der Falle zu lösen.
+
+> Die Falle kann mit einem Stärke Check wieder einsatzbereit gemacht werden. Misslingt dieser nimmt der Anwender 1d4 Schaden. 
+
+![](https://i.pinimg.com/originals/1a/b7/3a/1ab73a556f37ce355d89d07f4d2ac1fb.jpg)
+
 ## 5.2. - Level 2 Items
 
 ### 5.2.1. - Gegengift
@@ -555,8 +585,10 @@ Enthällt eine Anzahl an Spezialmunition für die Mosin.
 
 ---
 
-# 6. - Ideen
+# 6. Fragen
 
-## 6.1. - Riss / Rift - (Fähigkeit)
+## 6.1. Falle ok?
 
-## 6.2. - Bandagen - (Item)
+## 6.2. Rift ok?
+
+## 6.3. Ruhiges Zielen, ist ein sicherer Treffer?
