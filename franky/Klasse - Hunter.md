@@ -289,10 +289,9 @@ Quelle: [https://www.dndbeyond.com/equipment/javelin](https://www.dndbeyond.com/
 
 ## 3.4. - Hunter Rift
 
-- Wenn ein Monster getötet wird von einem Hunter und der Hunter dadurch eine Energy erhält
-- (Als mögliche bedingung muss ein Wisdom Check schaffen?)
-- Erstellt am Sterbe Ort einen Rift, dieser Rift erhält Leben 20% vom Monster das ihn erstellt hat (vielleicht meine eigene lebensenergy)
-- Solange ein Rift in der Nähe einer Verbannung ist, verringert dieser den Schaden den das verbannte Monster anrichtet. (1d6?)
+- Wenn ein Monster getötet wird von einem Hunter
+- Solange ein Rift in der Nähe einer Verbannung ist, verringert sich die Rundenzeit der verbannung um 1
+- Kann nur eins Gleichzeitig existieren
 
 ![](https://static.wikia.nocookie.net/hunthorrorsofthegildedage_gamepedia/images/7/76/Unclaimed_fresh_rift.png/revision/latest/scale-to-width-down/250?cb=20190713180052)
 
@@ -318,8 +317,8 @@ Der Rift ist ein Riss in der Welt. Der diese Welt mit der Verbannten Welt verbin
 - Verbraucht _3/(4)_ Energy
 - Wisdom Saving Throw wenn der Anwender Schaden nimmt um Konzentration zu behalten
 - Alle Gegener haben __Vorteil__ gegen mich
+- Alle Gegner im Umkreis sind auf mich fixiert
 - Nach _4/(3)_ Runden ist das Ziel besiegt sollte es die Verbannung nicht aufhalten können
-- Das Ziel geht auf den Anwender los
 
 ### 3.6.2. - Beschreibung
 
